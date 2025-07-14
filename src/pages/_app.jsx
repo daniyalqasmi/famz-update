@@ -1,3 +1,4 @@
+import 'react-18-image-lightbox/style.css';
 import '@/src/styles/index.scss'
 
 if (typeof window !== "undefined") {

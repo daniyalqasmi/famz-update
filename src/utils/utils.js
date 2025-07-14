@@ -1,6 +1,5 @@
 export const animationCreate = () => {
-  if (typeof window !== "undefined") {
-    window.WOW = require("wowjs");
+  if (typeof window !== "undefined" && window.WOW) {
+    new window.WOW({ live: false }).init();
   }
-  new WOW.WOW({ live: false }).init();
 };

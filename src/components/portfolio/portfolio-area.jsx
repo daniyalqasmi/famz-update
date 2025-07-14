@@ -20,7 +20,7 @@ const PortfolioArea = () => {
                             <h3 className="tp-portfolio-item-title">
                                 <Link href="/portfolio-details">{item.title}</Link></h3>
                             <div className="tp-portfolio-item-content-btn">
-                                <Link href="/portfolio-details">View Projects 
+                                <Link href={`${item.link}`}>View Projects 
                                     <i className="fa-regular fa-arrow-right"></i>
                                 </Link>
                             </div>

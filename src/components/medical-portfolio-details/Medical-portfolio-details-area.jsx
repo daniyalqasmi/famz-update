@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-const ServiceArea = () => {
+const Medical_ServiceArea = () => {
     return (
         <>
             <section className="tp-service-breadcrumb-area p-relative pt-120">
@@ -13,7 +13,7 @@ const ServiceArea = () => {
                         <div className="col-lg-6">
                             <div className="tp-service-breadcrumb-title-wrapper">
                                 <span className="tp-section-title__pre">
-                                    Innovative <span className='title-pre-color'>IT Solutions</span> Tailored for Your Success
+                                    Innovative <span className='title-pre-color'>Areeba</span> Daniyal
                                     <AngleArrow />
                                 </span>
                                 <h3 className="tp-section-title">
@@ -70,4 +70,4 @@ const ServiceArea = () => {
     );
 };
 
-export default ServiceArea;
+export default Medical_ServiceArea;
