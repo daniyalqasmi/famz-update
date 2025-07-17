@@ -1,4 +1,4 @@
-import our_service_data from '@/src/data/our-service-data';
+import medical_services_data from '@/src/data/medical_services_data';
 import AngleArrow from '@/src/svg/angle-arrow';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -31,7 +31,7 @@ const Medical_ServiceArea = () => {
                     </div>
 
                     <div className="row">
-                        {our_service_data.map((item, i) => (
+                        {medical_services_data.map((item, i) => (
                             <div key={i} className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="tp-service-3-content breadcrumb-item mb-30">
                                     <div className="tp-service-3-content-thumb">

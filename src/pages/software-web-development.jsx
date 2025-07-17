@@ -1,7 +1,7 @@
 import React from "react";
 import Wrapper from "../layout/wrapper";
 import SEO from "../common/seo";
-import Projects_details from "../components/projects";
+import Projects_details from "../components/it-services";
 
 const index = () => {
   return (

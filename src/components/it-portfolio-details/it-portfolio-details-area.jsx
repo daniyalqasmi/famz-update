@@ -1,4 +1,4 @@
-import our_service_data from '@/src/data/our-service-data';
+import it_services_data from '@/src/data/it_services_data';
 import AngleArrow from '@/src/svg/angle-arrow';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -31,7 +31,7 @@ const It_ServiceArea = () => {
                     </div>
 
                     <div className="row">
-                        {our_service_data.map((item, i) => (
+                        {it_services_data.map((item, i) => (
                             <div key={i} className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="tp-service-3-content breadcrumb-item mb-30">
                                     <div className="tp-service-3-content-thumb">
@@ -42,7 +42,7 @@ const It_ServiceArea = () => {
                                     </h4>
                                     <p>{item.description}</p>
                                     <div className="tp-service-btn">
-                                        <Link href={`/services/${item.slug}`}>
+                                        <Link href={`${item.slug}`}>
                                             Read More
                                             <i className="fa-solid fa-arrow-up-right"></i>
                                         </Link>
